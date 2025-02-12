@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'os';
+    src: url('/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');}
+
+    html {
+        font-size: 16px; /* Taille de base de 16px */
+    }
+    
+    body {
+        font-size: 1rem; /* Taille du texte du body égal à 16px */
+    }
+
+.logo{display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;}
+
+.h4rmon {margin-bottom: -20px;}
+
+h1{font-family:'os';
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    font-size: 2.8rem;}
+
+h2{font-family:'os';
+    text-align: center;
+    font-size: 1.8rem;
+    user-select: none;}
+
+.audios {display: flex;
+        align-items: center;
+        justify-content: center;}
+
+audio::-webkit-media-controls-panel {
+    display: flex !important; 
+    flex-direction: row; }
+    audio::-webkit-media-controls-current-time-display {display: none;}
+    audio::-webkit-media-controls-time-remaining-display {display: none;}
+
+h3{font-family:'os';
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    font-size: 20rem;
+    margin-top: 50px;
+    margin-bottom: 100px;}
+
+
+
+
+    
+
