@@ -35,7 +35,6 @@ h2{font-family:'os';
 audio::-webkit-media-controls-panel {
     display: flex !important; 
     flex-direction: row; }
-    audio::-webkit-media-controls-current-time-display {display: none;}
     audio::-webkit-media-controls-time-remaining-display {display: none;}
 
 h3{font-family:'os';
