@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'os';
-    src: url('assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');}
+    src: url('./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');}
 
     html {
         font-size: 16px; /* Taille de base de 16px */
